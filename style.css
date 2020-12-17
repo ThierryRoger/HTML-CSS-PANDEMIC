@@ -59,3 +59,28 @@ body,html,*{
 .right:hover{
     opacity: 1;
 }
+
+/*---------------Ici le style titre------------*/
+.entete_titre{
+    background: #F00A3C;
+    text-align: center;
+    color: #F7F6F6;
+    padding: 40px;
+    position: absolute;
+    top: 60%;
+    line-height: normal;
+}
+
+.entete_titre h1{
+    font-size: 40px;
+    line-height: normal;
+}
+
+#rs{
+    position: absolute;
+    text-align: center;
+}
+
+.sociaux{
+    margin: 5px;
+}
