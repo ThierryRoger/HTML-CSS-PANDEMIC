@@ -84,3 +84,39 @@ body,html,*{
 .sociaux{
     margin: 5px;
 }
+
+/*--------------Ici notre menu------------*/
+#menu{
+    background: #333;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+li a:hover:not(.active){
+    background: #F00A3C;
+}
+
+.active{
+    background: #F00A3C;
+}
